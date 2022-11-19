@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA | Calculator</title>
+    <link rel="stylesheet" href="./gpa.css">
+    <script src="./gpa.js"></script>
+    <link rel="icon" href="./images/keys.png">
+</head>
+<body>
+    
+</body>
+</html>
+<header>
+
+    <div class="topnav">
+      <img src="./images/saturn.png" alt="universe" style="height: 50px; width: 50px;">
+        <a href="index.html">home</a>
+        <a href="search.html">universities</a>
+        <a class="active" href="gpa.html">GPA</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+
+      <div class="body">
+        <div class="background-container">
+          <img src="./images/GPA Image.png" alt="GPA" style="width:100%">
+          <div class="centered">
+            <h1 class="starter">GPA Calculator</h1>
+            <p class="type"> Grading Scale: A+>=97 ,A>=93 ,A->=90 ,B+>=87 ,B>=83 ,B->=80, C+>=77 ,C>=73 ,C->=70 ,D+>=67 ,D>=63 ,D->=60 ,F>=0</p>
+          </div>
+        </div>  
+    
+        <div id="course-wrapper">
+          <form class="key-0">
+            <p> <label id="course-row" for="courses">Courses:</label> 
+             <label id="credit-row" for="credit-units">Credits:</label>
+           <label id="grade-row" for="grade">Grades: </label></p>
+              <input
+                type="text"
+                placeholder="Course"
+                class="courses key-0"
+                required/>
+    
+              <input
+                type="number"
+                class="credit-units key-0"
+                placeholder="Credits"
+                value=""
+                required
+              />
+    
+              <select class="grade key-0" required>
+                <option class="grade" value="select">Select</option>
+                <option class="grade" value="4">A+</option>
+                <option class="grade" value="4">A</option>
+                <option class="grade" value="3">A-</option>
+                <option class="grade" value="3">B+</option>
+                <option class="grade" value="3">B</option>
+                <option class="grade" value="2">B-</option>
+                <option class="grade" value="2">C+</option>
+                <option class="grade" value="2">C</option>
+                <option class="grade" value="1">C-</option>
+                <option class="grade" value="1">D</option>
+                <option class="grade" value="0">F</option>
+              </select>
+          </form>
+        </div>
+    
+        <div class="btn">
+          <button onclick="addCourse()">+ Add Course</button>
+          <button onclick="removeCourse()">- Remove Course</button>
+          <button onclick="calcCgpa()">Calculate GPA</button>
+        </div>
+        <div class="lastp">
+          <p id="cgpa-calc">Your GPA is:</p>
+        </div>
+      </div>
+    
+      </section>
+    

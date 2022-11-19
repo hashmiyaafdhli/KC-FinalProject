@@ -1,0 +1,126 @@
+
+body{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        background-color: #9F86D6;
+    }
+h1, h2, h3, h4, h5, h6{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        
+}
+
+.topnav {
+    background-color: #9079C2;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 50px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #FFF2F1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #9079C2;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #9F86D6;
+    color: white;
+  }
+
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; 
+        border-radius: 10px;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; 
+        backface-visibility: hidden;
+        border-radius: 10px;
+      }
+      
+      .flip-card-front {
+        background-color: #7E69AB;
+        color: black;
+      }
+      
+      .flip-card-back {
+        background-color: #9F86D6;
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .boxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-around;
+        column-gap: 40px;
+        padding: 20px;
+      }
+
+.background-container{
+  position: relative;
+  text-align: center;
+  color: #292F36;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.type {
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  animation: typing 5s steps(50, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+  
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.starter{
+  font-size: 60px;
+}
+
+.img1{
+  padding: 16px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+
+    <div class="topnav">
+        <img src="./images/saturn.png" alt="universe" style="height: 50px; width: 50px;">
+         <a href="index.html">home</a>
+          <a href="search.html">universities</a>
+          <a href="gpa.html">GPA</a>
+          <a class="active" href="contact.html">Contact</a>
+        </div>
+
+    <section id="contactME">
+      <h1>Contact Me</h1>
+
+      <form action="https://formsubmit.co/hashmiyaafdhli03@gmail.com" method="POST">
+        <div class="field">
+          <label for="name">Name</label>
+
+          <input
+            class="input"
+            type="text"
+            name="Name"
+            placeholder="Who are You?"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="email">email</label>
+          <input
+            class="input"
+            type="email"
+            name="Email"
+            placeholder="name@email.com"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="msg">msg</label>
+          <input
+            class="input"
+            type="text"
+            name="Message"
+            placeholder="Write your message here...."
+            required
+          />
+        </div>
+
+        <input id="hash" type="submit" value="Send" />
+      </form>
+    </section>
+  </body>
+</html>

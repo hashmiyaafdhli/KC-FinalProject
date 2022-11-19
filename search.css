@@ -1,0 +1,379 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: #9F86D6;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+}
+
+.topnav {
+background-color: #9079C2;
+overflow: hidden;
+border-radius: 10px;
+height: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: right;
+color: #FFF2F1;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: #9079C2;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #9F86D6;
+color: white;
+}
+
+  .harvard{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small;
+  }
+
+  .harvard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+  
+  .harvardimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+  
+
+  .yale{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .yale:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .yaleimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .Columbia{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .Columbia:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .columbiaimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .Stanford{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .Stanford:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .stanfordimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .UCLA{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .UCLA:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .uclaimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+  
+  .UCI{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .UCI:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .uciimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+  
+  .UCSD{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .UCSD:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .ucsdimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .RCSI{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .RCSI:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .rcsiimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .Oxford{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .Oxford:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .oxfordimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .Cambridge{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .Cambridge:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .cambridgeimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .Manchester{
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #7E69AB;
+    color: #292F35;
+    width: 300px;
+    height: 450px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: small
+  }
+
+  .Manchester:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .manchesterimg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+ 
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .background-container{
+    position: relative;
+    text-align: center;
+    color: #FFF2F1;
+
+  }
+  
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .starter{
+    font-size: 60px;
+  }
+  
+  .boddy{
+    color: #FFF2F1;
+    border-radius: 12px;
+  }
+  
+
+.button{
+  display: flex;
+  margin: auto;
+  height: 50px;
+  width: 150px;
+  background-color: #9F86D6;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF2F1;
+  outline: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+
+button:link{
+  text-decoration: none;
+}
+

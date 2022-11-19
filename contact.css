@@ -1,0 +1,114 @@
+.topnav {
+    background-color: #9079C2;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 50px;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+    float: right;
+    color: #FFF2F1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+    background-color: #ddd;
+    color: #9079C2;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+    background-color: #9F86D6;
+    color: white;
+    }
+
+
+    body{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        background-color: #9F86D6;
+    }
+h1, h2, h3, h4, h5, h6{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        
+}
+
+  
+  #contactME {
+    background-color: #725F9B;
+    width: 80%;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    border-top: 15px solid #9079C2;
+  }
+  
+  h1 {
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #dad7cd;
+  }
+  
+  form {
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .field {
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
+  }
+  
+  label {
+    color: #9079C2;
+    background-color: #dad7cd;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    width: 700px;
+    padding: 0;
+    font-weight: bolder;
+    position: absolute;
+  }
+  
+  .input {
+    height: 50px;
+    outline: none;
+    width: 700px;
+    padding-left: 20%;
+    box-sizing: border-box;
+  }
+  
+  .field:hover label {
+    width: 18%;
+    background-color: #725F9B;
+    color: #dad7cd;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #hash {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: #9079C2;
+  }
+  
+  #hash:hover {
+    background-color: #725F9B;
+    color: #dad7cd;
+    transition: 0.3s ease-in;
+  }
